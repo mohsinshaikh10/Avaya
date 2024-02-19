@@ -1,0 +1,7 @@
+conda install -c conda-forge opencv
+conda install -c conda-forge wikipedia
+pip install speechRecognition
+conda install pyaudio
+pip install torch
+pip install pyttsx3
+pip install nltk

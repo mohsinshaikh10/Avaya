@@ -1,0 +1,18 @@
+{
+  "intents": [
+    {
+      "tag":  "wakeup",
+      "patterns":[
+        "hey bot",
+        "Wake up bot",
+        "bot",
+        "bot come online",
+        "assistant"
+      ],
+      "responses":
+      [
+              "myassistant()"
+        ]
+    }
+  ]
+}

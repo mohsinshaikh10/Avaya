@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="micButton">
+    <file>microphone.png</file>
+  </qresource>
+</RCC>

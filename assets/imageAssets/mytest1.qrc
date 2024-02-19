@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="keyboardButton">
+    <file>keyboard.png</file>
+  </qresource>
+</RCC>

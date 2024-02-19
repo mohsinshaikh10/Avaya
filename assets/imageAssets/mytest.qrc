@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="heartimage">
+    <file>heartemoji.png</file>
+  </qresource>
+</RCC>

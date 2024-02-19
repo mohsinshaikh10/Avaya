@@ -1,0 +1,2 @@
+keyboard
+qwertyuiop asdfghjkl zxcvbnm

@@ -1,0 +1,57 @@
+{
+  "intents": [
+    {
+      "tag": "turnonlight",
+      "patterns": [
+        "Can you please turn on the lights",
+        "Hey, Turn on the lights",
+        "Turn on Lights",
+        "lights on",
+        "on lights"
+      ],
+      "responses": [
+        "Lights turned on"
+      ]
+    },
+    {
+      "tag": "turnofflight",
+      "patterns": [
+        "Can you please turn off the lights",
+        "Hey, Turn off the lights",
+        "Turn off Lights",
+        "off lights",
+        "lights off"
+      ],
+      "responses": [
+        "Lights turned off"
+      ]
+    },
+    {
+      "tag": "turnonfan",
+      "patterns": [
+        "Can you please turn on the fan",
+        "Hey, Turn on the fan",
+        "Turn on fan",
+        "on fan",
+        "fan on"
+      ],
+      "responses": [
+        "fan turned on"
+      ]
+    },
+    {
+      "tag": "turnofffan",
+      "patterns": [
+        "Can you please turn off the fan",
+        "Hey, Turn off the fan",
+        "Turn on fan",
+        "off fan",
+        "fan off"
+      ],
+      "responses": [
+        "fan turned off"
+      ]
+    }
+  ]
+}
+

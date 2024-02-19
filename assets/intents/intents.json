@@ -1,0 +1,193 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "print(bot_name+': Hey')",
+        "print(bot_name+': Hello, hope you are having a good day')",
+        "print(bot_name+': Hi there, what can I do for you?')",
+        "print(bot_name+': Hi there, how can I help?')"
+      ]
+    },
+        {
+      "tag":  "wakeup",
+      "patterns":[
+        "Can you please turn on the lights",
+        "Hey, Turn on the lights",
+        "Turn on Lights",
+        "lights on",
+        "on lights"
+      ],
+      "responses":
+              "myassistant()"
+    },
+    {
+      "tag": "homeAutomation",
+      "patterns": [
+        "Change mode",
+        "Change control",
+        "Switch to home automation"
+      ],
+      "responses": [
+        "homeAutomationfunc()"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "print(bot_name+': See you later')",
+        "print(bot_name+': Have a nice day')",
+        "print(bot_name+': Bye! Come back again soon.')"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me something funny",
+        "Are you Funny",
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "print(bot_name+': Why did the hipster burn his mouth? He drank the coffee before it was cool.')",
+        "print(bot_name+': What did the buffalo say when his son left for college? Bison.')"
+      ]
+    },
+    {
+      "tag": "botbrief",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "Breif yourself"
+      ],
+      "responses": [
+        "print(bot_name+': Hello Sir I am Bot I am smart bot developed in Python and I love to help people in any way I can and I am still learning people and about my capabilities to help people more efficiently! What can I do for you?')"
+      ]
+    },
+    {
+      "tag": "botname",
+      "patterns": [
+        "What is your name ?",
+        "What what do they call you ?",
+        "Do you have a name ?"
+      ],
+      "responses": [
+        "print(bot_name+': Hello Sir I'm Bot')",
+        "print(bot_name+': They call me Bot')",
+        "print(bot_name+': You can call me Bot!')"
+      ]
+    },
+    {
+      "tag": "sendemail",
+      "patterns": [
+        "Would you please write a mail for me?",
+        "Can you write a mail for me?",
+        "Write a mail",
+        "Would you please write a email for me?",
+        "Can you write a email for me?",
+        "Write a email",
+        "Send mail"
+      ],
+      "responses": [
+        "mymailerfunc()"
+      ]
+    },
+        {
+      "tag": "timeme",
+      "patterns": [
+        "What is the time now",
+        "tell me the time now",
+        "please tell me the time",
+        "What time it is",
+        "Can you please tell me the time now",
+        "What's the time now",
+        "tell the time"
+      ],
+      "responses": [
+        "dateandtimefunc()"
+      ]
+    },
+    {
+      "tag": "searchwiki",
+      "patterns": [
+        "Wiki this",
+        "wikipedia for me",
+        "wikipedia this for me"
+      ],
+      "responses": [
+        "searchwikipediafunc()"
+      ]
+    },
+    {
+      "tag": "searchgoogle",
+      "patterns": [
+        "Please search this for me",
+        "Can you google for me",
+        "google for me",
+        "Search the web for me",
+        "Open browser and search for me"
+      ],
+      "responses": [
+        "callgooglesearch()"
+      ]
+    },
+        {
+      "tag": "searchyoutube",
+      "patterns": [
+        "Search a video",
+        "open youtube",
+        "go to youtube",
+        "Search a video me",
+        "search something on youtube"
+      ],
+      "responses": [
+        "searchyoutubefunc()"
+      ]
+    },
+            {
+      "tag": "takenote",
+      "patterns": [
+        "take a note for me",
+        "take note ",
+        "note me something",
+        "please note for me",
+        "open note"
+      ],
+      "responses": [
+        "notefunc()"
+      ]
+    }
+  ]
+}
+
+
+
